@@ -151,11 +151,6 @@ public final class Fraction {
         return new Fraction(numerator.negate(), denominator);
     }
 
-    /**
-     * Indica si vale cero.
-     *
-     * @return {@code true} si es cero
-     */
     public boolean isZero() {
         return numerator.signum() == 0;
     }
