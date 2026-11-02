@@ -1,4 +1,4 @@
-package com.juniverse.matrices;
+package com.juniverse.matrix;
 
 import java.util.ArrayList;
 import java.util.List;

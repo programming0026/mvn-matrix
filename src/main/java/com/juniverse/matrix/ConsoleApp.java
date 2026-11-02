@@ -1,4 +1,4 @@
-package com.juniverse.matrices;
+package com.juniverse.matrix;
 
 import java.io.PrintStream;
 import java.util.Scanner;

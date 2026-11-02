@@ -1,4 +1,4 @@
-package com.juniverse.matrices;
+package com.juniverse.matrix;
 
 /** La matriz es singular (determinante cero): no tiene inversa. */
 public class SingularMatrixException extends ArithmeticException {

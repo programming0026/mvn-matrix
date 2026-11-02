@@ -1,4 +1,4 @@
-package com.juniverse.matrices;
+package com.juniverse.matrix;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;

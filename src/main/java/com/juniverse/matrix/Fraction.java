@@ -1,4 +1,4 @@
-package com.juniverse.matrices;
+package com.juniverse.matrix;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;

@@ -42,7 +42,7 @@ Con `double`, `0.1 + 0.2 != 0.3`, por eso `Matrix.approxEquals(otra, tolerancia)
 ## Estructura
 
 ```text
-src/main/java/com/juniverse/matrices/
+src/main/java/com/juniverse/matrix/
 ├── Matrix.java                    # matriz de double, inmutable, con todas las operaciones
 ├── FractionMatrix.java            # misma API con fracciones exactas
 ├── Fraction.java                  # número racional (BigInteger), siempre simplificado
@@ -63,8 +63,8 @@ Decisiones de diseño: las matrices son **inmutables** (cada operación devuelve
 
 ```bash
 mvn clean package
-java -jar target/mvn-matrices-1.0.0-SNAPSHOT-launcher.jar          # demostración de todas las operaciones
-java -jar target/mvn-matrices-1.0.0-SNAPSHOT-launcher.jar -i       # modo interactivo
+java -jar target/mvn-matrix-1.0.0-SNAPSHOT-launcher.jar          # demostración de todas las operaciones
+java -jar target/mvn-matrix-1.0.0-SNAPSHOT-launcher.jar -i       # modo interactivo
 ```
 
 En el modo interactivo eliges la operación en un menú y escribes cada matriz en una línea, con las filas separadas por `;` y los elementos por espacios o comas. Se aceptan enteros, decimales (`-2.5`) y fracciones (`1/2`):
